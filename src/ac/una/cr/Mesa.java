@@ -1,12 +1,12 @@
 package ac.una.cr;
 
 public class Mesa {
-	private Carta cartaInicial = Maso.tomarCarta();
+	private static Carta cartaEnMesa = Maso.tomarCarta();
 
-	public Carta getCartaEnMesa() {
-		return cartaInicial;
+	public static Carta getCartaEnMesa() {
+		return cartaEnMesa;
 	}
-	public void setCartaEnMesa(Carta cartaInicial) {
-		this.cartaInicial = cartaInicial;
+	public static void setCartaEnMesa(Carta carta) {
+		cartaEnMesa = carta;
 	}
 }
