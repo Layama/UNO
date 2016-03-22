@@ -1,4 +1,6 @@
-package ac.una.cr;
+package ac.una.cr.principal;
+
+import ac.una.cr.uno.Juego;
 
 public class Principal {
 

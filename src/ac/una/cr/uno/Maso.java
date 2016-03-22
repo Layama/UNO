@@ -1,4 +1,4 @@
-package ac.una.cr;
+package ac.una.cr.uno;
 
 public class Maso {
 	public static Carta tomarCarta(){
